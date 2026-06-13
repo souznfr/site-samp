@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.transicao {
+    transition: all 0.3s ease;
+}
+
+.sombra {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.btn {
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primario {
+    background-color: #165DFF;
+    color: white;
+}
+
+.btn-primario:hover {
+    background-color: #0F4CD0;
+    transform: translateY(-2px);
+}
+
+.btn-destaque {
+    background-color: #FFB703;
+    color: #000;
+}
+
+.btn-destaque:hover {
+    background-color: #E6A200;
+    transform: translateY(-2px);
+}
